@@ -1,0 +1,329 @@
+*{
+    font-family: Arial;
+}
+
+body {
+    margin: 0px;
+}
+
+.ajustx{
+    text-indent: 50px;
+}
+
+nav {
+    width:100%;
+    height:100px;
+    background-color: rgb(21, 87, 230);
+    position: fixed;
+    top: 0;
+}
+
+#logo {
+    width:100px;
+    height:100px;
+    margin-left: 300px;
+}
+
+nav ul {
+    float:right;
+    margin-right: 130px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style:none;
+    line-height: 80px;
+    margin: 0 5px; 
+}
+
+nav ul a:hover {
+    background: rgba(21, 87, 230, 0.897);
+    transition: .5s;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.checkbtn {
+    padding-top:10px;
+    font-size:30px;
+    color:white;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display:none;
+}
+
+@media(max-width: 1400px){
+    #logo{
+        margin-left:80px;
+    }#barra ul {
+        margin-left:-100px;
+    }#nacademia img{
+        width:700px;
+    }#corpo p img{
+        width: 1000px;
+        height:500px;
+    }#nacademia {
+        height:300px;
+    }.desc img {
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width: 1250px) {
+    #barra ul {
+        margin-top: 15px;
+        margin-right: 10px;
+    }#corpo p img{
+        width: 800px;
+        height:500px;
+    }#nacademia img{
+        width:600px;   
+    }#nacademia {
+        height:350px;
+    }.desc li {
+        margin-left:-200px;
+    }
+}
+
+@media(max-width:1100px) {
+    #nacademia {
+        text-align: center;
+    }#nacademia img{
+        width:480px;   
+    }
+}
+
+@media(max-width: 952px) {
+    #logo{
+        margin-left: 20px;
+    }nav ul li a{
+        font-size: 16px;
+    }#modalidades a img{
+        width:450px;
+        height:370px;
+    }#corpo p img{
+        width: 800px;
+        height:500px;
+    }#nacademia img{
+        width:400px;
+    }#nacademia{
+        height:330px;
+    }
+}
+
+@media(max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }#barra ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(21, 87, 230);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }nav ul li {
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+    }nav ul li a {
+        font-size: 20px;
+    }a:active a:hover {
+        background: none;
+        color:rgba(21, 87, 230, 0.733);
+    }#check:checked ~ ul {
+        left:0;
+    }#local iframe {
+        margin-left:-35px;
+        width:400px;
+    }#corpo p img{
+        width: 650px;
+        height:350px;
+    }#nacademia img{
+        float: none;
+        width:620px;
+        height:300px;
+    }#nacademia h2,p{
+        font-size: 20px;
+    }#nacademia {
+        height:610px;
+    }.texto1 {
+        margin-top: -100px;     
+    }.art_rod li{
+        font-size: 10.5px;
+    }
+}
+
+@media(max-width: 660px) {
+    #corpo p img{
+        width: 480px;
+        height:300px;
+    }#nacademia img{
+        width:455px;
+        margin-left: 10px;
+    }#nacademia {
+        height:660px;
+    }
+}
+
+@media(max-width: 460px) {
+    #corpo p img{
+        width: 480px;
+        height:300px;
+    }#nacademia img{
+        width:455px;
+        margin-left: 10px;
+    }#nacademia {
+        margin-bottom:-1000px;
+        height:640px;
+    }
+}
+
+#corpo {
+    text-align:center;
+}
+
+#corpo img{
+    width: 1300px;
+    height:500px;
+    margin-top:100px;
+}
+
+#modalidades a img:hover{
+    -webkit-transform: scale(1.1);
+
+}
+
+#modalidades a img{
+    -webkit-transition: all .2s ease-in;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+
+#nacademia {
+    margin-bottom:220px;
+}
+
+#nacademia h2{
+    text-align: center;
+    margin:auto;
+}
+
+#nacademia p{
+    margin-left:10px;
+}
+
+.imagem img{
+    width: 720px;
+    height:340px;
+    margin-left: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+#nacademia h1{
+    text-align:center;
+    padding-top:40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #d2425d;
+    padding-bottom: 40px;
+    color:white;
+}
+
+#modalidades {
+    background-color:rgba(21, 87, 230, 0.733);
+    text-align:center;
+}
+
+#modalidades h1{
+    background-color: rgba(255, 43, 43, 0.74);
+    padding-bottom: 40px;
+}
+
+#modalidades img{
+    margin-top:50px;
+    width: 650px;
+    height:400px;
+}
+
+#modalidades h2 {
+    padding-top:-50px;
+    padding-bottom:20px;
+    color:white;
+}
+
+#modalidades h1 {
+    padding-top: 50px;
+    color:white;
+}
+
+#local{
+    text-align: center;
+    margin: 80px;
+    margin-top: 30px;
+}
+
+.desc {
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
+.desc img{
+    width:700px;
+}
+
+.texto ul {
+    width: 300px;
+    margin-left:730px;
+}
+
+.distancial {
+    padding: 100px 70px 50px 50px; 
+}
+
+.distanciam {
+    padding-top:80px;
+    padding-bottom: 20px;
+}
+
+.rodape {
+    background-color:rgba(21, 87, 230, 0.733);
+    color: white;
+    width: 100%;
+    height:250px;
+    display:flex;
+}
+
+.art_rod a{
+    text-decoration: none;
+    color:white;
+}
+
+.art_rod{
+    width: 33.33%;
+    margin:20px;
+    margin-left:25px;
+
+}
+
+.art_rod li{
+    margin-top:10px;
+    margin-left:-35px;
+}

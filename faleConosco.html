@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header id='faixa'> 
+        <nav id ='barra' class='menu'>
+            <a href="index.html"><img id = 'logo'src="imagens/logo.png" alt="logo"></a>
+            <input type="checkbox" id="check">
+            <label for="check"class='checkbtn'>&#9776; </label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="modalidade.html">Modalidades</a></li>
+                <li><a href="local.html">Local</a></li>
+                <li><a href="faleConosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="contato">
+        <h1>FALE CONOSCO</h1>
+        <form class = "distancia" action="">
+            <label for="inputnome">Nome:</label>
+            <input type="text" id="inputnome" required maxlength="25" placeholder="Coloque seu nome completo aqui"> 
+            <label for="inputemail">Email:</label>
+            <input type="email" id="inputemail" required maxlength="50" placeholder="exemplo@gmail.com">
+            <label for="inputnt">Telefone:</label>
+            <input type="text" id="inputnt" required maxlength="12" placeholder="11 123456789">
+            <label for="txtAreaM">Mensagem</label>
+            <textarea name="txtAreaM" id="txtAreaM" required maxlength="100" placeholder="Coloque sua dúvida aqui"></textarea>
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </div>
+    
+    <footer class='rodape'>
+        <div class='art_rod'>
+            <p><h2>Ajuda</h2></p>
+            <ul>
+                <a href="faleConosco.html">
+                    <li>Fale conosco</li>
+                </a>
+            </ul>
+        </div>
+        
+        <div class='art_rod'>
+            <h2>Entre em Contato</h2>
+            <ul>
+                <li>Av. Henrique Eroles, 1348 - Alto Ipiranga, Mogi das Cruzes - SP, 08737-165</li>
+                <li>Telefone: (11)4794-0150</li>
+                <li>marcoseanaota@gmail.com</li>
+            </ul>
+        </div>
+        
+        <div class='art_rod'>
+            <p><h2>Siga a gente</h2></p>
+            <ul>
+                <a href="https://www.facebook.com/artesmarciaismogi" target="_blank" rel='external'>
+                    <li><img src="imagens/facebook.png" alt="face">Facebook</li>
+                </a>
+                <a href="https://instagram.com/artsmarciais?igshid=htvotk0zb0fz" target="_blank" rel="external">
+                    <li><img src="imagens/instagram.png" alt="ins">Instagram</li>
+                </a>
+                <a href="https://youtube.com/channel/UCVf1ZAO_j3QTgXxpSr4bA0g" target="_blank" rel="external">
+                    <li><img src="imagens/youtube.png" alt="you">Youtube</li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
